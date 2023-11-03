@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+@font-face {
+    font-family: "Nunito Sans";
+    src: url(fonts/NunitoSans_7pt_Condensed-Regular.ttf);
+}
+/*div display flex*/
+.displayflex {
+    display: flex;
+}
+
+.divilustration {
+    width: 50%;
+}
+
+.illustration {
+    width: 100%;
+    height: 1075px;
+}
+/*image logo*/
+.imagelogo {
+    padding-bottom: 36px;
+    margin-right: 320px;
+}
+/*contant container*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+/*div container paragraph*/
+.divcontainerparagraph {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+/*container div paragraph header*/
+.divparagraphheader {
+    display: flex;
+    justify-content: start;
+    color: #525252;
+    font-family: "Nunito Sans";
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+/*container div paragraph */
+.divparagraph {
+    margin: 0;
+    color: #525252;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+/*container block "countine with google"*/
+.containerblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 45px;
+    gap: 13px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    margin-top: 32px;
+}
+
+.containerblockancor {
+    color: var(--Gray-3, #828282);
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+/*paragraph tag "or sign in with email"*/
+.paragraphsigninwithemail {
+    color: #A1A1A1;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 36px;
+}
+/*paragraph tag "Email"*/
+.Email {
+    margin-top: 36px;
+    margin-bottom: 4px;
+    color: var(--Gray-3, #828282);
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formIcon {
+    position: relative;
+    
+}
+.passemailicon {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    fill: rgba(0, 0, 0, 0.00);
+    filter: drop-shadow(0px 0px 25px #631E4D);
+}
+/*paragraph tag "Password"*/
+.password {
+    margin-top: 24px;
+    margin-bottom: 4px;
+    margin-top: 36px;
+    margin-bottom: 4px;
+    color: var(--Gray-3, #828282);
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+}
+/*input tag "email"*/
+.inputemail {
+    display: flex;
+    width: 420px;
+    align-items: center;
+    outline: none;
+    padding: 18px 10px 13px 10px;
+
+}
+/*input tag "Password"*/
+.inputpassword {
+    display: flex;
+    width: 420px;
+    align-items: center;
+    outline: none;
+    padding: 18px 10px 13px 10px;
+
+}
+
+/*label tag input chackbox*/
+.labelinputchekbox {
+    color: #A1A1A1;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 400;
+}
+/*input chack box*/
+.checkbox {
+    accent-color: #7F265B;
+    border-radius: 2px;
+    margin-top: 8px;
+}
+/*ancor element"forgot password?"*/
+.Forgotpassword {
+   margin-left: 221px;
+   color: #7F265B;
+   font-family: "Nunito Sans";
+   font-size: 12px; 
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.containersubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    padding: 13px 10px 12px 10px;
+    border-radius: 6px;
+    background-color: #7F265B;
+    margin-top: 32px;
+    color: #FFF;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+}
+/*create acaunt*/
+.registered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    
+}
+
+.registeredparagraph {
+    color: var(--Gray-3, #828282);
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+ 
+.registeredancor {
+    color: #7F265B;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px;
+}
